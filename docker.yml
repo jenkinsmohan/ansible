@@ -2,7 +2,7 @@
 - hosts: 172.31.7.6
   become: yes
   tasks:
-    - name: Install docker
+    - name: Install docker here
       yum:
         name: docker
         state: present
